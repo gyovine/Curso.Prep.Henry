@@ -1,0 +1,91 @@
+html, body {
+    margin: 0px;
+}
+
+body {
+    /* background-image: url('asado.jpg'); */
+    background-size: 100%;
+    background-color: rgb(50, 50, 50);
+    background-blend-mode: soft-light;
+    height: 100vh;
+    padding-top: 10px;
+    background-size: cover;
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+    -o-background-size: cover;
+    
+    
+}
+
+.Menu {
+    font-family: 'lobster', helvetica;
+    color: white;
+}
+
+h1 {
+    font-size: 70px;
+    margin-bottom: -20px;
+}
+h3 {
+    font-size: 50px;
+    text-shadow: -2px -2px 0px #d86609, 2px -2px 0px #d86609, -2px 2px 0px #d86609, 2px 2px 0px #d86609;
+    margin-bottom: -20px;
+}
+h4 {
+    font-size: 20px;
+    font-family: helvetica;
+}
+
+img {
+    width: 400px;
+}
+
+#thirdDiv {
+    padding: 50px;
+    height: 600px;
+    width: 500px;
+    background-color: rgba(218, 161, 111, 0.2);
+    border: solid 5px coral;
+    margin: 30px;
+}
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+li {
+    margin: 0px;
+}
+#spanId {
+    font-family: 'lobster', helvetica;
+    font-size: 18px;
+    margin: 50px;
+    color: whitesmoke;
+    text-shadow: -2px -2px 0px #3a3937, 2px -2px 0px  #3a3937, -2px 2px 0px  #3a3937, 2px 2px 0px  #3a3937;
+}
+
+.flex-center-start {
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.flex-center-center {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+a {
+    font-family: 'lobster', helvetica;
+    margin-bottom: 60px;
+    font-size: 2em;
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: #ccc;
+    text-decoration: none;
+    }

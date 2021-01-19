@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    color: rgb(240, 240, 240);
+}
+
+.foto {
+    background: tomato;
+    border-radius: 50%;
+    border: 5px solid rgb(241, 241, 120);
+    width: 300px; 
+    height: 300px;
+    margin-left: 20px ;
+    
+}
+
+img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+.img {
+    display: flex;
+    border-radius: 50%;
+    padding: 20px;
+
+}
+
+.titulo {
+    display: flex;
+    margin-top: 80px;
+    height: 100px;
+    align-items: center;
+    margin-left: 50px;
+    justify-content: center;
+    flex-direction: column;
+}
+.titulo h2 {
+    font-size: 3em;
+    color: rgb(50, 51, 51);
+    letter-spacing: 5px;
+}
+
+.titulo h1 {
+    font-size: 4em;
+    font-weight: 500;
+    font-family: Anton;
+    color: rgb(233, 236, 41);
+}
+
+body {
+    background: rgb(138, 136, 136);
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 500;
+    background-color: rgb(68, 68, 67);
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.Contenedor {
+    padding: 20px;
+    margin: 20px;
+    background: rgb(216, 215, 214);
+}
+
+.gris {
+    background: grey;
+    padding: 10px 0px 10px 10px;
+    margin: 10px;
+    border-bottom: 5px solid rgb(241, 241, 120);
+}
+
+.gris p {
+    margin: 3px;
+}
